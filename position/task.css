@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    position: relative;
+    height: 20px;
+    width: 100vw;
+    background-color: rgb(215, 205, 205);
+    top: 10px;
+}
+nav a:link{
+    color:cadetblue ;
+}
+
+
+/* .c1{
+    position: absolute;
+    left: 100px;
+    margin-left: 300px;
+} */
+
+nav a{
+    position: relative;
+    left: 300px;
+    margin-left: 100px;
+}
+.logo{
+    position: absolute;
+    left:900px
+    
+}
+.login{
+    position: absolute;
+    left: 10px;
+
+}

@@ -1,0 +1,41 @@
+
+@font-face{
+    font-family:D-DIN;
+    src: url(assests/D-DIN.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:D-DIN;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links a{
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(248, 246, 246); 
+    margin: 0 14px;
+    padding-bottom: 6px;
+}
+.items1{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+
+}
+.items1 video{
+
+    position: absolute;
+}
+.links::after:hover{
+    transform: scaleX(1);
+}

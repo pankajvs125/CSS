@@ -1,0 +1,21 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transform: translate(100px,100px);
+    /* transform: translateX(250px); */
+    /* transform: translate(150px); */
+    border: 10px solid black;
+}
+div:hover{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    /* transform: rotate(30deg); */
+    /* transform: skew(40deg,50deg); */
+    /* transform: scale(2.5); */
+    border: 10px solid black;
+}

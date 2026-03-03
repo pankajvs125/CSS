@@ -1,0 +1,31 @@
+p::first-line{
+    color: khaki;
+}
+p::first-letter{
+    font-size: 100px;
+    color: brown;
+}
+p::before{
+    content: "Pavan";
+    font-size: 50px;
+}
+p::after{
+    content: "Pyton";
+    font-size: "100px";
+    color: darkred;
+}
+p::selection{
+    background:darkgreen;
+    color: darkolivegreen;
+}
+
+ul{
+    list-style-type: square;
+}
+li::marker{
+    color: darkmagenta;
+    font-size: 40px;
+}
+li:hover::marker{
+    color: cornflowerblue;
+}

@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+body{
+    background:black;
+}
+#d1{
+    background: linear-gradient(black)
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20%;
+    padding: 60px;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 255, 0.374);
+}
+#d2{
+    text-align: center;
+    padding: auto;
+}
+#d3:hover{
+    text-align: center;
+    box-shadow: yellow;
+    background-image: linear-gradient(purple,orange);
+}
+#d4{
+    text-align: center;
+}
+#d5{
+    text-align: center;
+}
+#b1:hover{
+    color:coral;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.982),#c50303);
+}

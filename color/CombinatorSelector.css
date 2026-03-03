@@ -1,0 +1,50 @@
+input[placeholder],input[type="text"]{
+    background-color: aqua;
+}
+
+
+a:visited{
+    color: forestgreen;
+}
+a:link{
+    color: fuchsia;
+}
+a:active{
+    color: gold;
+}
+
+input:focus{
+    background-color: chartreuse;
+    outline: none;
+}
+
+div{
+    background-color: cadetblue;
+    height: 150px;
+    width: 100px;
+}
+div:hover{
+    background-color: blueviolet;
+}
+
+
+img:hover{
+    content:url("https://media.kannadaprabha.com/kannadaprabha%2F2025-11-01%2Fvftoewcd%2Fdarshan-new.jpg?w=480&auto=format%2Ccompress&fit=max")
+}
+
+li:first-child{
+    background-color: aqua;
+}
+li:last-child{
+    background-color: lawngreen;
+}
+li:nth-child(2){
+    background-color: brown;
+}
+
+
+
+
+p:first-of-type{
+    color:teal;
+}

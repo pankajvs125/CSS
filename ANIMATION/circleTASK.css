@@ -1,0 +1,36 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 200, 255);
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(150%,50%);
+    animation:circle 3s ease 0s infinite;
+    
+}
+@keyframes circle{
+    0%{
+        background-image:radial-gradient(red,black,yellow);
+    }
+    20%{
+        background-image:radial-gradient(pink,green,purple);
+    }
+    40%{
+        background-image: linear-gradient(gray,darkgreen,black);
+    }
+    60%{
+        background-image:linear-gradient(darkgoldenrod,black,maroon,);
+    }
+    80%{
+        background-color: darkgoldenrod;
+    }
+    100%{
+        background-color: maroon;
+    }
+}

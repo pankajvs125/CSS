@@ -1,0 +1,43 @@
+/* p{
+    text-decoration: underline red double 2px;
+} */
+
+
+TEXT_TRANSFORMATION()
+/* span{
+    text-transform:lowercase;
+}
+p{
+    text-transform: capitalize;
+}
+p:last-child{
+    text-decoration: overline yellowgreen dotted 3px;
+} */
+
+
+TEXT_SPACING
+
+/* p{
+    text-indent: 20px;
+}
+p{
+    letter-spacing: 3px;
+}
+p{
+    word-spacing: 30px;
+}
+p{
+    line-height: 50px;
+} */
+
+TEXT_FONT_PROPERTY
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    font-weight:inherit;
+}
+p{
+    font-weight:100;
+}

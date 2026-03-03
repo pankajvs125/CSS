@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(245, 245, 247);
+}
+
+.link{
+    display: flex;
+    gap: 30px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.link a:hover {
+    color: rgb(49, 47, 47);
+}
+
+
+.continer2{
+    height:50px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+    top: 20px;
+}
+.offer{
+    position:absolute;
+    text-decoration: none;
+    font-size: medium;
+}
+.continer3{
+    height: 100vh;
+    width: 100%;
+    background:rgb(245, 245, 247);
+    display: flex;
+    position: relative;
+    
+}
+.stores{
+    position: absolute;
+    left:6%;
+    top: 15%;
+    font-size: 35px;
+    font-weight: 700;
+}
+.words{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+/* Links1 & links2 alingining */
+
+.links1{
+    position: absolute;
+    top: 28%;
+    left:80%;
+}
+.links2{
+    position: absolute;
+    top: 33%;
+    left:83.5%;
+}
+
+/* TextDecoration None */
+
+.links1 a{
+    text-decoration: none;
+}
+.links2 a{
+    text-decoration: none   ;
+}
+
+ /* After hover underline */
+.links1 a:hover{
+    text-decoration: underline;
+}
+.links2 a:hover{
+    text-decoration: underline;
+}
+
+
+/*  Images */
+
+/* .continer{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+} */
+.images{
+    display:flex ;
+    justify-content: center;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    right: 0.5%;
+    justify-content: space-evenly;
+}
+
+/* NAMES */
+.names a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.names {
+    position:absolute;
+    font-size: 15px;
+    top: 67%;
+    left: 11%;
+    right: 1;
+    display: flex;
+    gap: 90px;
+    justify-content: space-evenly;
+}
+
+/* The latest. Take a look at what’s new right now. */
+
+.zzz{
+    position: relative;
+    top: 500px;;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    position: relative;
+    left: 600px;
+    top: 0px;
+} 
+
+/* .parent{
+    height:150px;
+    width: 300px;
+    background-color: red;
+    border: 3px solid black;
+    box-shadow:darkblue;
+    position: relative;
+    
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    box-shadow: 3px 5px 7px 9px black;
+
+} 2222222222*/
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: sticky;
+    top: 100px;
+} */

@@ -1,0 +1,24 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+    margin-top: 20px;
+    /* animation-name:square ;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+    animation: square 4s ease 0s infinite reverse;
+}
+@keyframes square{
+    from{
+
+    }
+    to{
+        transform: translateX(500px);
+    }
+}

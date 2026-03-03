@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(118, 118, 102);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    
+}
+@media (max-width:600px){
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}

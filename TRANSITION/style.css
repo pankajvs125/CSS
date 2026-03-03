@@ -1,0 +1,17 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    /* transition-property: transforms; */
+    /* transition-duration: 3s; */
+    /* transition-timing-function:ease; */
+    /* transition-delay: 3s; */
+    transition: transform 4s ease-in 0s;
+}
+div:hover{
+    transform: translateX(1111px);
+    /* background-color: blue; */
+}

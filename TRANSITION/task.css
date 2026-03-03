@@ -1,0 +1,26 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+div{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-image: linear-gradient(red,black);
+    transition-property:transform background-image;
+    transition-duration: 5s;
+    transition-timing-function:ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div:hover{
+    transform:translate(1111px,500px) rotate(360deg);
+    border-radius: 50%;
+    background-image: linear-gradient(red,black);  
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+}

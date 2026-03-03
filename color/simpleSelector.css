@@ -1,0 +1,27 @@
+*{
+    padding: 0;margin: 2px;
+    box-sizing: border-box;
+}
+#contiener{
+    position: relative;
+}
+#p1{color: orangered;
+    position: absolute;
+    left: 500px;
+}
+.c2{
+    position: absolute;
+    background-color: aquamarine;
+    color: black;
+    left: 500px;
+}
+.c2:hover{
+    background-image: linear-gradient(yellow,red,pink);
+    color:rgb(28, 1, 114) ;
+}
+#A{
+    position:fixed;
+    height: 100px;
+    width: 100px;
+    background-color: darkgoldenrod;
+}

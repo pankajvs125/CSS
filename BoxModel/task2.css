@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: hwb(261 0% 0% / 0.155);
+    height: 500px;
+    width: 500px;
+}
+#d1{
+    text-align: center;
+    border: 2px solid rgb(102, 51, 153);
+}
+#d2{
+    text-align: center;
+}
+#d3{
+    text-align: center;
+}
+#b1{
+    margin: 3%;
+}
