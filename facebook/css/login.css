@@ -1,0 +1,133 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box; 
+    font-family: Arial;
+    
+}
+.loginpanel{    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    position: relative;
+    bottom: 30px;
+    width: 396px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 6px 4px 4px rgba(190, 190, 255, 0.275);
+    margin-bottom: 100px;
+}
+.loginpanel p{
+    margin-top: 20px;
+    font-size: large;
+}
+.loginform{
+    height: 356px;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#username, #password,#login{
+    border: 1px solid #ccd0d5;
+    position: relative;
+    top: 10px;
+    height: 55px;
+    width: 365px;
+    padding: 20px;
+    border-color: rgba(177, 174, 174, 0.604);
+    border-radius: 5px;
+    margin: 6px;
+}
+#username:focus,#password:focus{
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 255, 0.199);
+    border-color: #1677f5;
+    outline: none;
+}
+#login{
+    height: 48px;
+    background-color:#1877F2;
+    font-size: large;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    border-color: rgba(255, 255, 255, 0);
+}
+.login-area{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(188, 187, 187, 0.266);
+    margin-bottom: 110px;
+}
+.logo img{
+    height: 100px;
+    width: 250px;
+    margin: 25px;
+}
+.other-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+.other-links a{
+    text-decoration: none;
+    color: #1877F2;
+    font-size: 14px;
+}
+.other-links a:hover{
+    text-decoration: underline;
+}
+/* mediaQuery for mobile view */
+@media screen and (max-width:480px) {
+
+    body{
+        background-color: #f0f2f5;
+    }
+
+    .login-area{
+        min-height: auto;
+        padding: 20px 12px;
+        justify-content: flex-start;
+    }
+
+    .logo img{
+        width: 200px;
+        margin: 10px 0 20px;
+    }
+
+    .loginpanel{
+        width: 100%;
+        max-width: 360px;
+        padding: 20px 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .loginform{
+        width: 100%;
+    }
+
+    #username,#password,#login{
+        width: 92%;
+        font-size: 16px;
+    }
+
+    .other-links{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 12px;
+    }
+
+    .footer{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .language,.others{
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+}
